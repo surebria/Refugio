@@ -1,0 +1,141 @@
+{
+  "configVersion": 1,
+  "timestamp": 1717609811549,
+  "index": "https://surebria.github.io/Refugio/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://surebria.github.io/Refugio/chunk-QAHLPVTS.js",
+        "https://surebria.github.io/Refugio/chunk-QJESEVQW.js",
+        "https://surebria.github.io/Refugio/favicon.ico",
+        "https://surebria.github.io/Refugio/index.html",
+        "https://surebria.github.io/Refugio/main-CP3WOYEO.js",
+        "https://surebria.github.io/Refugio/manifest.webmanifest",
+        "https://surebria.github.io/Refugio/polyfills-A7MJM4D4.js",
+        "https://surebria.github.io/Refugio/scripts-6XM6ELSS.js",
+        "https://surebria.github.io/Refugio/styles-YA6AR52L.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://surebria.github.io/Refugio/assets/icons/icon-128x128.png",
+        "https://surebria.github.io/Refugio/assets/icons/icon-144x144.png",
+        "https://surebria.github.io/Refugio/assets/icons/icon-152x152.png",
+        "https://surebria.github.io/Refugio/assets/icons/icon-192x192.png",
+        "https://surebria.github.io/Refugio/assets/icons/icon-384x384.png",
+        "https://surebria.github.io/Refugio/assets/icons/icon-512x512.png",
+        "https://surebria.github.io/Refugio/assets/icons/icon-72x72.png",
+        "https://surebria.github.io/Refugio/assets/icons/icon-96x96.png",
+        "https://surebria.github.io/Refugio/assets/images/Inicio/istockphoto-172240471-612x612.jpg",
+        "https://surebria.github.io/Refugio/assets/images/Inicio/photo-1444212477490-ca407925329e.jpg",
+        "https://surebria.github.io/Refugio/assets/images/Somos/Nosotros.jpg",
+        "https://surebria.github.io/Refugio/assets/images/Somos/istockphoto-171573405-612x612.jpg",
+        "https://surebria.github.io/Refugio/assets/images/Somos/problemas.jpg",
+        "https://surebria.github.io/Refugio/assets/images/hoja.jpg",
+        "https://surebria.github.io/Refugio/assets/images/logos/logo.png",
+        "https://surebria.github.io/Refugio/assets/images/logos/logo2.png",
+        "https://surebria.github.io/Refugio/assets/images/logos/wallpaperInicio.jpg",
+        "https://surebria.github.io/Refugio/assets/images/mascotas/1.jpg",
+        "https://surebria.github.io/Refugio/assets/images/mascotas/10.jpg",
+        "https://surebria.github.io/Refugio/assets/images/mascotas/2.jpg",
+        "https://surebria.github.io/Refugio/assets/images/mascotas/3.jpg",
+        "https://surebria.github.io/Refugio/assets/images/mascotas/4.jpg",
+        "https://surebria.github.io/Refugio/assets/images/mascotas/5.jpg",
+        "https://surebria.github.io/Refugio/assets/images/mascotas/6.jpg",
+        "https://surebria.github.io/Refugio/assets/images/mascotas/7.jpg",
+        "https://surebria.github.io/Refugio/assets/images/mascotas/8.jpg",
+        "https://surebria.github.io/Refugio/assets/images/mascotas/9.jpg",
+        "https://surebria.github.io/Refugio/assets/images/nosotros/carlos.jpg",
+        "https://surebria.github.io/Refugio/assets/images/nosotros/emilio.jpg",
+        "https://surebria.github.io/Refugio/assets/images/nosotros/lesley.jpg",
+        "https://surebria.github.io/Refugio/assets/images/nosotros/paco.jpg",
+        "https://surebria.github.io/Refugio/assets/images/nosotros/sara.jpg",
+        "https://surebria.github.io/Refugio/media/hoja-NPJS36LO.jpg",
+        "https://surebria.github.io/Refugio/media/istockphoto-171573405-612x612-N3MYBKQ6.jpg",
+        "https://surebria.github.io/Refugio/media/istockphoto-172240471-612x612-QJKL2X4E.jpg",
+        "https://surebria.github.io/Refugio/media/photo-1444212477490-ca407925329e-7ZSHD7DJ.jpg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://surebria.github.io/Refugio/assets/icons/icon-128x128.png": "1c64261bf766cee14b1ec7df50d1a8523c2c4248",
+    "https://surebria.github.io/Refugio/assets/icons/icon-144x144.png": "40939e60abd99560a17085e8b87318d6f70816b2",
+    "https://surebria.github.io/Refugio/assets/icons/icon-152x152.png": "0fe15d007c85984e52fa2d0e01b56a09ce28b123",
+    "https://surebria.github.io/Refugio/assets/icons/icon-192x192.png": "a48d97eee9d80dbfcc147c875752d4f3cb9a737e",
+    "https://surebria.github.io/Refugio/assets/icons/icon-384x384.png": "7be566b6ffce0da4b6c8abfb0b8690da4ff40bde",
+    "https://surebria.github.io/Refugio/assets/icons/icon-512x512.png": "4b30351bd65da809f1467daf44cbc09fd18b6d2a",
+    "https://surebria.github.io/Refugio/assets/icons/icon-72x72.png": "28f9640494149bde2ce248579f3c9f9cd162212b",
+    "https://surebria.github.io/Refugio/assets/icons/icon-96x96.png": "f1342daf8ba0a0a373fae4c06e75b5c16da991a5",
+    "https://surebria.github.io/Refugio/assets/images/Inicio/istockphoto-172240471-612x612.jpg": "57502eb6e0b7bc2b88312a5bac3d751209de91f5",
+    "https://surebria.github.io/Refugio/assets/images/Inicio/photo-1444212477490-ca407925329e.jpg": "96accba7c454350f321e130b5ffe8c3c7baa4a29",
+    "https://surebria.github.io/Refugio/assets/images/Somos/Nosotros.jpg": "65637491bf794dbe8ec6addea779b0dc63df9f3e",
+    "https://surebria.github.io/Refugio/assets/images/Somos/istockphoto-171573405-612x612.jpg": "e564b455d1e62cd0b961d4653fc4981311eea76b",
+    "https://surebria.github.io/Refugio/assets/images/Somos/problemas.jpg": "ae7e6ee5460b04be4e355319d4cb40e20a68f5d3",
+    "https://surebria.github.io/Refugio/assets/images/hoja.jpg": "bda6b01b9200a0412bcdb60cf18316ad1a81f611",
+    "https://surebria.github.io/Refugio/assets/images/logos/logo.png": "2d218ed8435083d42d98d1011f7f2576605e5cbd",
+    "https://surebria.github.io/Refugio/assets/images/logos/logo2.png": "67615ffc9386effba5bfb96c1bdeabde5ac60753",
+    "https://surebria.github.io/Refugio/assets/images/logos/wallpaperInicio.jpg": "f18ee41398478bc058eb9e40867a47a720293e4a",
+    "https://surebria.github.io/Refugio/assets/images/mascotas/1.jpg": "ebd4f785caa80e63942854037652a546a24e437c",
+    "https://surebria.github.io/Refugio/assets/images/mascotas/10.jpg": "c137b4f35af010000162af2328c566025537eb7d",
+    "https://surebria.github.io/Refugio/assets/images/mascotas/2.jpg": "7221f32eefb6ac3b7b4ea084c45b4742c0d8965c",
+    "https://surebria.github.io/Refugio/assets/images/mascotas/3.jpg": "81b4400d1a4f801e32962750f8a76aed8ab905ea",
+    "https://surebria.github.io/Refugio/assets/images/mascotas/4.jpg": "82078bdca34f0df7a80f5ff7ea87077c3b3d84a9",
+    "https://surebria.github.io/Refugio/assets/images/mascotas/5.jpg": "91dbc3cb06484c2694256f12f4a16ed1183f2212",
+    "https://surebria.github.io/Refugio/assets/images/mascotas/6.jpg": "4abf600488721e19cfc3b1ca5b3de87d33946b29",
+    "https://surebria.github.io/Refugio/assets/images/mascotas/7.jpg": "5ecbb450d0e491f98b846e9e0492476f0cfd1491",
+    "https://surebria.github.io/Refugio/assets/images/mascotas/8.jpg": "76ff8420efcb36c44d304dae3cf039eccda3c823",
+    "https://surebria.github.io/Refugio/assets/images/mascotas/9.jpg": "37df7717ca1c031a7a707221a191de4b4ba2224f",
+    "https://surebria.github.io/Refugio/assets/images/nosotros/carlos.jpg": "65f8d3a1079c0f684cd827e051e2003d8c2e342d",
+    "https://surebria.github.io/Refugio/assets/images/nosotros/emilio.jpg": "1d725945438dbe92cbdb65ea705b6d8ceeccf716",
+    "https://surebria.github.io/Refugio/assets/images/nosotros/lesley.jpg": "0dce80c220da2fd35fc6d08fc49cb64c699fa01d",
+    "https://surebria.github.io/Refugio/assets/images/nosotros/paco.jpg": "926237c2dc081ebe343da6c1ce6b51176dbdaff4",
+    "https://surebria.github.io/Refugio/assets/images/nosotros/sara.jpg": "5958c92c2ca75258adb9cfda568f21cc4b49702b",
+    "https://surebria.github.io/Refugio/chunk-QAHLPVTS.js": "4f9fbbb84abaeae38ecced891a3478a1d00d3fb2",
+    "https://surebria.github.io/Refugio/chunk-QJESEVQW.js": "b41a9d35f7de63e91d30ed965bb88f5ac3175997",
+    "https://surebria.github.io/Refugio/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "https://surebria.github.io/Refugio/index.html": "2ab5b4fad8b02b96e411afa92c608de69c4bef33",
+    "https://surebria.github.io/Refugio/main-CP3WOYEO.js": "535ae8378cacb065a344454f91f63a42d5cabc53",
+    "https://surebria.github.io/Refugio/manifest.webmanifest": "7e914cd669646c845ce299c6098f1d1f9acde989",
+    "https://surebria.github.io/Refugio/media/hoja-NPJS36LO.jpg": "bda6b01b9200a0412bcdb60cf18316ad1a81f611",
+    "https://surebria.github.io/Refugio/media/istockphoto-171573405-612x612-N3MYBKQ6.jpg": "e564b455d1e62cd0b961d4653fc4981311eea76b",
+    "https://surebria.github.io/Refugio/media/istockphoto-172240471-612x612-QJKL2X4E.jpg": "57502eb6e0b7bc2b88312a5bac3d751209de91f5",
+    "https://surebria.github.io/Refugio/media/photo-1444212477490-ca407925329e-7ZSHD7DJ.jpg": "96accba7c454350f321e130b5ffe8c3c7baa4a29",
+    "https://surebria.github.io/Refugio/polyfills-A7MJM4D4.js": "547053781d5952561abe68a51cc6c1a2b1b51c55",
+    "https://surebria.github.io/Refugio/scripts-6XM6ELSS.js": "a7d399c0a56ff5e6547be4c3a57350d5830cf527",
+    "https://surebria.github.io/Refugio/styles-YA6AR52L.css": "e9de027db3ec1682b128d2427b70955c17248411"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
