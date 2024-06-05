@@ -1,0 +1,36 @@
+h2{
+    font-family: "Satisfy", cursive;
+    opacity: 80%;
+    text-align: center;
+    padding: 10px;
+}
+
+#general{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#pasadas, #futuras{
+    width: 50%;
+}
+
+.hoja{
+    border-radius: 10px;
+    width: 95%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-image: url("../../assets/images/hoja.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
+    transform: scale(0.95, 0.95) rotate(0.5deg);
+}
+
+.hoja img {
+    width: 100%; /* Ocupa el ancho completo del contenedor */
+    height: 100%; /* Ocupa la altura completa del contenedor */
+}

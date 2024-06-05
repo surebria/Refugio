@@ -1,0 +1,42 @@
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+    <app-citas (propagar)="procesarMensaje($event)" (propagarFechas)="procesarFechas($event)" hidden></app-citas>
+    @if (numCitas!=0) {
+        <div id="general">
+            <div id="pasadas">
+                <div class="hoja">
+                    <h2>Pasadas</h2>
+                    @for (fecha of fechasRecibibas; track fecha; let i=$index) {
+                        @if ((convertirFechas(i))<fechaAct) {
+                            <app-citas [fechaImprimir]="fecha"></app-citas>
+                        }
+                    }
+                </div>
+            </div>
+            <div id="futuras">
+                <div class="hoja">
+                    <h2>Futuras</h2>
+                    @for (fecha of fechasRecibibas; track fecha; let i=$index) {
+                        @if ((convertirFechas(i))>fechaAct) {
+                            <app-citas [fechaImprimir]="fecha"></app-citas>
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    }@else{
+        <h3 [ngClass]="'animate__animated animate__backInLeft'" [ngStyle]="{
+            'text-align': 'center', 
+            'background-color': 'beige',
+            'width': '40%',
+            'margin': '0 auto',
+            'padding': '40px',
+            'border-radius': '10px',
+            'margin-top': '20px',
+            'margin-bottom': '20px'
+            }">Aún no se han registrado citas</h3>
+    }
+</body>
+

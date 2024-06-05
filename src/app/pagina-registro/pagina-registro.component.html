@@ -1,0 +1,109 @@
+<div id="mascota">
+    <div id="imagen">
+        <div class="wrapper">
+            <div class="item">
+                <div class="polaroid">
+                    <img src="../../assets/images/mascotas/{{mascota.id}}.jpg">
+                    <div class="caption">{{mascota.nombre}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="datos">
+        <mat-divider></mat-divider>
+        
+        <div>
+            <h6 id="emailHelp" class="form-text text-muted">Datos de tu nuevo amigo <i><b>{{mascota.nombre}}</b></i>.</h6>
+        </div>
+
+        <mat-accordion>
+            <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Datos
+                    </mat-panel-title>
+                    <mat-panel-description>
+                        {{panelOpenState ? 'Abierto' : 'Cerrado'}}
+                    </mat-panel-description>
+                </mat-expansion-panel-header>
+                <div id="datosLlenado">
+                    <div class="form-group">
+                        <mat-form-field class="example-full-width">
+                            <mat-label>Edad</mat-label>
+                            <input matInput value="{{mascota.edad}}" disabled>
+                        </mat-form-field>
+                    </div>
+                    <div class="form-group">
+                        <mat-form-field class="example-full-width">
+                            <mat-label>Color</mat-label>
+                            <input matInput value="{{mascota.color}}" disabled>
+                        </mat-form-field>
+                    </div>
+                </div>
+                <div id="datosLlenado">
+                    <div class="form-group">
+                        <mat-form-field class="example-full-width">
+                            <mat-label>Raza</mat-label>
+                            <input matInput value="{{mascota.raza}}" disabled>
+                        </mat-form-field>
+                    </div>
+                    <div class="form-group">
+                        <mat-form-field class="example-full-width">
+                            <mat-label>Tiempo en el refugio</mat-label>
+                            <input matInput value="{{mascota.tiempo}}" disabled>
+                        </mat-form-field>
+                    </div>
+                </div>
+                <div id="datosLlenado">
+                    <div class="form-group">
+                        <mat-form-field class="example-full-width" style="width: 600px;">
+                            <mat-label>Descripción</mat-label>
+                            <input matInput value="{{mascota.descripcion}}" disabled>
+                        </mat-form-field>
+                    </div>
+                </div>
+            </mat-expansion-panel>
+        </mat-accordion>
+        <br>
+
+        <mat-divider></mat-divider>
+        <!-- -------- DATOS DEL INTERESADO ---------- -->
+        <div>
+            <h6 id="emailHelp" class="form-text text-muted">Datos de su próximo dueño.</h6>
+        </div>
+        <div id="datosLlenado">
+            <div class="form-group">
+                <mat-form-field class="example-full-width">
+                    <mat-label>Nombre</mat-label>
+                    <input matInput [(ngModel)]="nombreDueno" required>
+                </mat-form-field>
+            </div>
+            <div class="form-group">
+                <mat-form-field class="example-full-width">
+                    <mat-label>Número Telefónico</mat-label>
+                    <input matInput [(ngModel)]="numeroDueno" type="number" required>
+                </mat-form-field>
+            </div>
+            <div class="form-group">
+                <mat-form-field class="example-full-width">
+                    <mat-label>Hora de la cita (H:M am/pm)</mat-label>
+                    <input matInput [(ngModel)]="hora" type="time" required>
+                </mat-form-field>
+            </div>
+        </div>
+        <div id="datosLlenado">
+            <div class="form-group">
+                <mat-form-field>
+                    <mat-label>Elige una fecha</mat-label>
+                    <input matInput [matDatepicker]="picker" [matDatepickerFilter]="deshabilitarFechas" [min]="fechaActual" [(ngModel)]="fecha" required>
+                    <mat-hint>MM/DD/YYYY</mat-hint>
+                    <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                    <mat-datepicker #picker></mat-datepicker>
+                </mat-form-field>
+            </div>
+        </div>
+
+        <button mat-raised-button color="accent" (click)="subir()">ENVIAR</button>
+    </div>
+</div>

@@ -1,0 +1,92 @@
+body {
+    /* background-image: url('../../assets/images/logos/wallpaperInicio.jpg'); */
+    background-size:cover;
+    background-position:bottom;
+    background-attachment:fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.containerTitle{
+    color: white;
+    text-align: end;
+    margin: 7rem 10rem;
+}
+  
+.containerTitle h2{
+    font-size: 4.5rem;
+    margin: 0;
+    text-shadow: 2px 2px 6px rgb(205, 195, 170) ;
+}
+
+.containerTitle p{
+    font-size: 1.4rem;
+}
+
+.containerTitle img{
+    top: 200px;
+    right: 390px;
+    position: absolute;
+    width: 7%;
+}
+
+#vertical-line {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 94%; 
+    width: 5px; 
+    /* background-color: #9c0003; */
+    background-color: #fdecd3;
+    content: ''; /* Required for pseudo-elements */
+    /* box-shadow: 2px 2px 4px rgb(177, 171, 156) ; */
+}
+
+.buttonContainer {
+    margin: 10% 10% 0% 10%;
+    white-space: nowrap;
+}
+
+#button-28 {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: rgb(159, 147, 147);
+  background-color: #1a1a1a8f;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Philosopher", sans-serif;
+  font-weight: 600;
+  line-height: normal;
+  margin-right: 10px;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  /* width: 100%; */
+  will-change: transform;
+}
+
+#button-28:disabled {
+  pointer-events: none;
+}
+
+#button-28:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+#button-28:active {
+  box-shadow: none;
+  transform: translateY(0);
+}

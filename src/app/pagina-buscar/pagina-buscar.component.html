@@ -1,0 +1,14 @@
+@if(indice==-1){
+    <h3 [ngClass]="'animate__animated animate__backInLeft'" [ngStyle]="{
+        'text-align': getAlineacion(), 
+        'background-color': getColorFondo(),
+        'width': getWidth(),
+        'margin': getMargin(),
+        'padding': getPadding(),
+        'border-radius': '10px',
+        'margin-top': '20px',
+        'margin-bottom': '20px'
+        }">Aún no se han registrado citas con dicho nombre</h3>
+}@else{
+    <app-buscar [citaRecibida]="cita"></app-buscar>
+}

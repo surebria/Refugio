@@ -1,0 +1,61 @@
+<div class="card-columns" id="cards">
+    @for (mascota of mascotasServicio.mascotas; track mascota; let i = $index) {
+        @if(i==3 || i==6 || i==9){
+            <div class="card">
+                <app-imagenaleatoria></app-imagenaleatoria>
+                <div class="card-body">
+                    <h5 class="card-title" [ngStyle]="{'color': 'red'}"><i>Campeones que ya encontraron hogar</i></h5>
+                </div>
+            </div>
+        }
+        <div class="card">
+            <img src="../../assets/images/mascotas/{{mascota.id}}.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">{{mascota.nombre}}</h5>
+                <p class="card-text">Si quisieras conocer más de él, da clic en el siguiente botón</p>
+                <a class="btn btn-outline-info" [routerLink]="['/detalles', i]" routerLinkActive="router-link-active">¡¡Conóceme!!</a>
+            </div>
+        </div>
+    }
+</div>
+
+
+
+<!-- <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+</div>
+<div class="card bg-primary text-white text-center p-3">
+    <blockquote class="blockquote mb-0">
+        <p>A well-known quote, contained in a blockquote element.</p>
+        <footer class="blockquote-footer text-white">
+            <small>
+                Someone famous in <cite title="Source Title">Source Title</cite>
+            </small>
+        </footer>
+    </blockquote>
+</div>
+<div class="card text-center">
+    <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This card has a regular title and short paragraphy of text below it.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+</div>
+<div class="card">
+    <img src="..." class="card-img" alt="...">
+</div>
+<div class="card p-3 text-right">
+    <blockquote class="blockquote mb-0">
+        <p>A well-known quote, contained in a blockquote element.</p>
+        <footer class="blockquote-footer">
+            <small class="text-muted">
+                Someone famous in <cite title="Source Title">Source Title</cite>
+            </small>
+        </footer>
+    </blockquote>
+</div> -->

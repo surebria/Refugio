@@ -1,0 +1,98 @@
+.uno{
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+    height: 600px;
+    background-image: url(../../assets/images/Somos/istockphoto-171573405-612x612.jpg);
+    background-size: cover;
+    color: ivory;
+}
+
+.uno p {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.uno p#dos {
+    background-color: rgba(0, 0, 0, 0.445);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.dos{
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+    background-color: #5d4b4a;
+    color: white;
+}   
+.dosa{
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+    background-color: #a39286;
+    color: #493d3e;
+}
+.dosa p{
+    color: #665c5d;
+}
+
+.container {
+    width: 80%; /* Ancho del contenedor */
+    margin: 0 auto; /* Centrar horizontalmente */
+    overflow: hidden; /* Limpiar el float */
+    display: flex; /* Utilizar flexbox para alinear los elementos */
+    align-items: center; /* Centrar verticalmente */
+    flex-wrap: wrap; /* Permitir que los elementos se envuelvan */
+}
+
+.texto {
+    width: 100%; /* Ancho del texto */
+    text-align: center; /* Alinear el texto al centro */
+    margin-bottom: 20px; /* Espacio entre los elementos de texto */ 
+}
+.textos {
+    flex: 1; /* El bloque de textos ocupa todo el espacio restante */
+}
+.imagen {
+    border-radius: 50%; 
+    width: 500px;
+    height: auto;
+    margin-left: auto; /* Mover la imagen a la derecha */
+}
+
+.tres{
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+    background-color: #b4af9c;    
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas con el mismo tamaño */
+    gap: 20px; /* Espacio entre las cards */
+}
+
+.card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Eleva la card cuando el cursor está sobre ella */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Cambia la sombra al hacer hover */
+}
+
+.card h2 {
+    margin-top: 10px; /* Espacio superior */
+    font-size: 1.5em; /* Tamaño de la fuente del título */
+}
+
+.card p {
+    margin-top: 10px; /* Espacio superior */
+    font-size: 1em; /* Tamaño de la fuente del texto */
+}

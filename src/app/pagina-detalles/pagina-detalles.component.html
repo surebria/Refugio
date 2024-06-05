@@ -1,0 +1,22 @@
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<div class="container">
+    <div class="wrapper">
+        <div class="item">
+            <div class="polaroid"><img src="../../assets/images/mascotas/{{mascota.id}}.jpg">
+                <div class="caption">{{mascota.nombre}}</div>
+            </div>
+        </div>
+    </div>
+    <div class="infoWrapper">
+        <div class="info">
+            <h4>Edad: {{mascota.edad}}</h4>
+            <h4>Color: {{mascota.color}}</h4>
+            <h4>Raza: {{mascota.raza}}</h4>
+            <h4>Tiempo en el refugio: {{mascota.tiempo}}</h4>
+            <p>{{mascota.descripcion}}</p>
+            <a class="btn btn-outline-success" [routerLink]="['/registro', registroId]" routerLinkActive="router-link-active">¡Adóptame!</a>
+        </div>
+    </div>
+</div>

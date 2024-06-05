@@ -1,0 +1,28 @@
+<div id="header">
+    <div class="botones">
+        <a [routerLink]="['/mascotas']" routerLinkActive="router-link-active">
+            <button id="button-28" role="button" class="animate__animated animate__fadeIn animate__delay-2s">MASCOTAS</button>
+        </a>
+        <a [routerLink]="['/nosotros']" routerLinkActive="router-link-active">
+            <button id="button-28" role="button" class="animate__animated animate__fadeIn animate__delay-2s">NOSOTROS</button>
+        </a>
+        <a [routerLink]="['/citas']" routerLinkActive="router-link-active">
+            <button id="button-28" role="button" class="animate__animated animate__fadeIn animate__delay-2s">CITAS</button>
+        </a>
+        <a [routerLink]="['/somos']" routerLinkActive="router-link-active">
+            <button id="button-28" role="button" class="animate__animated animate__fadeIn animate__delay-2s">¿QUIÉNES SOMOS?</button>
+        </a>
+    </div>
+
+    <div id="nombre">
+        <a [routerLink]="['/home']" routerLinkActive="router-link-active" >
+            <img src="../../assets/images/logos/logo2.png" alt="" id="logo" class="animate__animated animate__zoomIn animate__delay-1s">
+        </a>
+        <h2 class="animate__animated animate__fadeIn animate__delay-1s">El refugio de Kiki</h2>
+    </div>
+
+    <div id="buscar" class="animate__animated animate__fadeIn animate__delay-2s form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2 my-2 my-lg-0" type="text" id="buscar" [(ngModel)]="limpiar" placeholder="Buscar" #buscar (keyup.enter)="buscarCita(buscar.value)">
+        <button class="btn btn-outline-light my-2 my-sm-0" type="button" (click)="buscarCita(buscar.value)">Buscar</button>
+    </div>
+</div>
